@@ -55,7 +55,7 @@ This will display the launcher menu with options:
 
 ## 📚 Additional Information
 
-* Ensure all scripts (`tor-launcher.sh`, `system-status.sh`, `network-manager.sh`, `wifi_scan.sh`, `deauth.sh`, and `purge-logs.sh`) are installed exactly as documented for optimal functionality.
+* Ensure all scripts [`tor-launcher.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/tor-launcher.sh), [`system-status.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/system-status.sh), [`network-manager.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/network-manager.sh), [`wifi_scan.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/wifi_scan.sh), [`deauth.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/deauth.sh), and [`purge-logs.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/purge-logs.sh) are installed exactly as documented for optimal functionality.
 
 ---
 
