@@ -16,7 +16,7 @@ Before running the script, ensure your device meets these requirements:
   opkg -d sd install mdk4
   ```
 - A WiFi adapter supporting monitor mode and packet injection (e.g., Hak5 MK7AC, Alfa adapters, or similar).
-- Successful execution of the [`wifi_scan.sh`](./wifi_scan.sh) script (required for target selection).
+- Successful execution of the [`wifi_scan.sh`](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Scripts/wifi_scan.sh) script (required for target selection).
 
 ---
 
