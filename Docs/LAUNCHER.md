@@ -31,8 +31,6 @@ nano /sd/usr/bin/pineappleos
 chmod +x /sd/usr/bin/pineappleos
 ```
 
-Ensure the launcher script (`pineappleos.sh`) is copied exactly as provided from your repository.
-
 ---
 
 ## 🚀 Running the Launcher
