@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# PineappleOS Toolkit Launcher
+
+pause_return() {
+  echo ""
+  read -p "Press enter to return to the main menu..."
+}
+
+while true; do
+  clear
+  echo "╔═════════════════════════════════════════════════╗"
+  echo "║          🍍 PineappleOS Toolkit 🍍             ║"
+  echo "╠═════════════════════════════════════════════════╣"
+  echo "║ [1] Tor Launcher                                ║"
+  echo "║ [2] System Status                               ║"
+  echo "║ [3] Network Manager                             ║"
+  echo "║ [4] WiFi Scan                                   ║"
+  echo "║ [5] WiFi Deauth                                 ║"
+  echo "║ [6] Purge Logs                                  ║"
+  echo "║ [0] Exit                                        ║"
+  echo "╚═════════════════════════════════════════════════╝"
+  echo ""
+
+  read -p "Select an option: " choice
+
+  case "$choice" in
+    1) /sd/usr/bin/tor-launcher.sh; pause_return ;;
+    2) /sd/usr/bin/system-status.sh; pause_return ;;
+    3) /sd/usr/bin/network-manager.sh; pause_return ;;
+    4) /sd/usr/bin/wifi_scan.sh; pause_return ;;
+    5) /sd/usr/bin/deauth.sh; pause_return ;;
+    6) /sd/usr/bin/purge-logs.sh; pause_return ;;
+    0) echo "Exiting PineappleOS..."; sleep 1; clear; exit 0 ;;
+    *) echo "Invalid selection, please try again."; sleep 1 ;;
+  esac
+done
+
