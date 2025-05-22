@@ -10,7 +10,7 @@ Before running the script, ensure your Pineapple device meets these requirements
 
 * Pineapple device flashed and configured according to [ShurkenHacks' Guide](https://github.com/SHUR1K-N/WiFi-Mangoapple-Resources).
 * An SD card mounted at `/sd`.
-* Tor setup completed following the Tor Installation & SOCKS5 Proxy Setup guide.
+* Tor setup completed following the Tor Installation & SOCKS5 Proxy Setup guide. ['TOR_SETUP.md'](https://github.com/ToonWrld33/PineappleOS-Toolkit/blob/main/Docs/TOR_SETUP.md)
 
 ⸻
 
